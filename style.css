@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #ffe8e7;
+    height: 100vh;
+}
+
+h1 {
+    color: #d0476e;
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.levels {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1b5454;
+    font-family: "Merriweather", serif;
+    line-height: 2em;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+li {
+    list-style:circle;
+    list-style-position:inside;
+
+}
+
+@media (max-width: 480px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    a {
+      font-size: 1rem;
+    }
+  
+    ul {
+      gap: 15px;
+    }
+  }

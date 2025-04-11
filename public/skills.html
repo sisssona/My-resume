@@ -1,0 +1,90 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+   
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 16px;
+        --hdr-gradient: conic-gradient(from 360deg at 105% 103% in oklch increasing hue,
+                oklch(80% .3 34) 0%, oklch(90% .3 200) 100%);
+        --sdr-gradient: conic-gradient(from 360deg at 105% 103%,
+                #ff4700 0%, #0ff 100%);
+
+        background: var(--hdr-gradient);
+    }
+
+    .section-skills {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 2rem;
+    }
+
+    .box {
+        border: 2px solid green;
+        border-radius: 30px;
+        padding: 20px 30px;
+        font-family: "Merriweather", serif;
+        line-height: 2rem;
+        max-width: 500px;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        background-color: rgb(24, 248, 200);
+    }
+
+    p {
+        text-decoration: underline;
+        color: rgb(61, 5, 61);
+        font-weight: 600;
+    }
+
+    p:last-of-type { 
+        padding-bottom: 20px;
+    }
+
+    li {
+        font-weight: 800;
+        color: rgb(99, 7, 99);
+        margin-left: 15px;
+    }
+
+    @media (max-width: 480px) {
+        p {
+            font-size: 1.1rem;
+        }
+
+        li {
+            font-size: 1rem;
+            margin-left: 15px;
+        }
+
+        .box {
+            padding: 25px;
+        }
+    }
+</style>
+
+<body>
+    <div class="section-skills">
+        <div class="box">
+        <p>I am patient, conscientious, relaxed and cooperative team worker</p>
+        <p>I have skills in:</p>
+        <ol>
+            <li>C#</li>
+            <li>Html</li>
+            <li>Css</li>
+            <li>JS</li>
+            <li>GitHub</li>
+            <li>Git</li>
+        </ol>
+        </div>
+    </div>
+</body>
