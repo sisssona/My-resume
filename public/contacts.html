@@ -1,80 +1,84 @@
 <style>
-        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
-       
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+   
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-    body {
-        font-size: 16px;
-        background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-        font-family: "Merriweather", serif;
-    }
+body {
+    font-size: 16px;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    font-family: "Merriweather", serif;
+}
 
-    .section-contacts {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        padding: 2rem;
-    }
+.section-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
 
+.box {
+    border: 2px solid green;
+    border-radius: 30px;
+    padding: 20px 30px;
+    background-color: rgb(44, 194, 161);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+p, a {
+    font-size: 1.5rem;
+    color: rgb(61, 5, 61);
+    font-weight: 600;
+    text-align: center;
+    word-break: break-word;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
     .box {
-        border: 2px solid green;
-        border-radius: 30px;
-        padding: 20px 30px;
-        background-color: rgb(44, 194, 161);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 800px;
-        width: 100%;
-        height: auto;
+        padding: 20px;
     }
 
-    p {
-        font-size: 1.5rem;
-        color: rgb(61, 5, 61);
-        font-weight: 600;
-        text-align: center;
-        word-break: break-word;
+    p, a {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        padding: 15px;
     }
 
-    @media (max-width: 480px) {
-        .box {
-            padding: 20px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            line-height: 2.2rem;
-        }
+    p, a {
+        font-size: 1rem;
+        line-height: 2rem;
     }
-
-    @media (max-width: 480px) {
-        .box {
-            padding: 15px;
-        }
-
-        p {
-            font-size: 1rem;
-            line-height: 2rem;
-        }
-    }
+}
 </style>
 
 
 
 <body>
-    <div class="section-contacts">
-        <div class="box">
-            <p>e-mail: savina.ivanova@yahoo.com</p>
-            <p>linkedIn: https://www.linkedin.com/in/savina-ivanova-0b054452/</p>
-            <p>github: https://github.com/sisssona</p>
-        </div>
+<div class="section-contacts">
+    <div class="box">
+        <p>e-mail: savina.ivanova@yahoo.com</p>
+        <a href="https://www.linkedin.com/in/savina-ivanova-0b054452/?originalSubdomain=bg">linkedin</a>
+        <a href="https://github.com/sisssona">github</a>
     </div>
+</div>
 </body>
 
