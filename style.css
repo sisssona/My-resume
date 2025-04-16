@@ -44,10 +44,6 @@ li {
     list-style-position:inside;
 }
 
-li::marker {
-  font-size: ;
-}
-
 @media (max-width: 480px) {
     h1 {
       font-size: 2rem;
